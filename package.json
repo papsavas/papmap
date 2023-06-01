@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "list": "tsc",
+    "lint": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npm run build && changeset publish"
   },
