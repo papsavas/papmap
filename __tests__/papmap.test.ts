@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { PapMap } from "..";
+import { PapMap } from "../src";
 
 describe('Monitored Collection', () => {
   const [k, v] = ["key", "val"];
